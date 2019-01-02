@@ -1,0 +1,337 @@
+table:
+  - - A Multi-Transformational Model for Background Subtraction with Moving Cameras   
+    - D. Zamalieva, A. Yilmaz, and J. Davis 
+    - <i>European Conference on Computer Vision</i>, September 2014.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/MVA-13.pdf">PDF</a>
+  - - One-Class Multiple Instance Learning and Applications to Target Tracking 
+    - K. Sankaranarayanan and J. Davis
+    - <i>Asian Conference on Computer Vision</i>, November 2012.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ACCV-12.pdf">PDF</a>
+  - - Segmentation and Scene Modeling for MIL-based Target Localization 
+    - K. Sankaranarayanan and J. Davis
+    - <i>International Conference on Pattern Recognition</i>, November 2012.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ICPR-12.pdf">PDF</a>,<a href="http&#58//spie.org/x33833.xml?highlight=x2410&amp;ArticleID=x33833">HTML</a>
+  - - Detecting Behavioral Zones in Local and Global Camera Views 
+    - M. Nedrich and J. Davis
+    - <i>Machine Vision and Applications</i>, Vol. 23, 2012, pp. 1-27.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/MVA2012.pdf">PDF</a>
+  - - Recovery and Reasoning about Occlusions in 3D using Few Cameras with Applications to 3D Tracking
+    -  M. Keck and J. Davis
+    - <i>International Journal of Computer Vision</i>, Vol. 95, Issue 3, 2011, pp. 240-264.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/IJCV2011.pdf">PDF</a>
+  - - Activity Analysis in Wide-Area Surveillance Video
+    - R. Feather and J. Davis
+    - OSU Dept. Computer Science and Engineering Technical Report OSU-CISRC-11/11-TR34, 2011.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/OSU-CISRC-11-11-TR34.pdf">PDF</a>
+  - - Object Association Across PTZ Cameras using Logistic MIL
+    - K. Sankaranarayanan and J. Davis
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 2011.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cvpr11b.pdf">PDF</a>
+  - - Using Ripley's K-function to Improve Graph-Based Clustering Techniques
+    - K. Streib and J. Davis
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 2011.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cvpr11a.pdf">PDF</a>
+  - - Camera Control and Geo-Registration for Video Sensor Networks
+    - J. Davis
+    - <i>Distributed Video Sensor Networks</i>, B. Bhanu (ed.), Springer, January 2011.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/isvc10a.pdf">PDF</a>
+  - - Learning Scene Entries and Exits using Coherent Motion Regions
+    - M. Nedrich and J. Davis
+    - <i>International Symposium on Visual Computing</i>, November 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/isvc10b.pdf">PDF</a>
+  - - Exploiting Multiple Cameras for Environmental Pathlets
+    - K. Streib and J. Davis
+    - <i>International Symposium on Visual Computing</i>, November 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/isvc10c.pdf">PDF</a>
+  - - PTZ Camera Modeling and Panoramic View Generation via Focal Plane Mapping
+    - K. Sankaranarayanan and J. Davis
+    - <i>Asian Conference on Computer Vision</i>, November 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/accv10.pdf">PDF</a>
+  - - Learning Directed Intention-driven Activities using Co-Clustering
+    - K. Sankaranarayanan and J. Davis
+    - <i>IEEE Conference on Advanced Video and Signal Based Surveillance</i>, August 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avss10b.pdf">PDF</a>
+  - - Extracting Pathlets From Weak Tracking Data
+    - K. Streib and J. Davis
+    - <i>IEEE Conference on Advanced Video and Signal Based Surveillance</i>, August 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avss10a.pdf">PDF</a>
+  - - Geo-registration and Interactive Control for Distributed Camera Networks
+    - M. Nedrich, K. Sankaranarayanan, and J. Davis
+    - OSU Dept. Computer Science and Engineering Technical Report OSU-CISRC-6/10-TR13, 2010.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/OSU-CISRC-6-10-TR13.pdf">PDF</a>
+  - - How Panoramic Visualization can Support Human Supervision of Intelligent Surveillance
+    - A. Morison, D. Woods, and J. Davis
+    - <i>Annual Meeting of the Human Factors and Ergonomics Society</i>, October 2009.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/HFES09.pdf">PDF</a>
+  - - Human Detection and Tracking
+    - J. Davis, V. Sharma, A. Tyagi, and M. Keck 
+    - <i>Encyclopedia of Biometrics</i>, S. Li (ed.), Springer, July 2009.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/SPIE09.pdf">PDF</a>
+  - - Feature-Level Fusion for Object Segmentation Using Mutual Information
+    - V. Sharma and J. Davis
+    - Book chapter in <i>Augmented Vision Perception in Infrared</i>, Springer, December 2008, pp. 295-319.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avpi08.pdf">PDF</a>
+  - - A Fast Linear Registration Framework for Multi-Camera GIS Coordination
+    - K. Sankaranarayanan and J. Davis
+    - <i>IEEE International Conference on Advanced Video and Signal Based Surveillance</i>, September 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avss08.pdf">PDF</a>
+  - - 3D Occlusion Recovery using Few Cameras 
+    - M. Keck and J. Davis
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cvpr08-a.pdf">PDF</a>
+  - - A Recursive Filter For Linear Systems on Riemannian Manifolds
+    - A. Tyagi and J. Davis
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cvpr08-b.pdf">PDF</a>
+  - - An Efficient Active Camera Model for Video Surveillance
+    - K. Sankaranarayanan and J. Davis
+    - <i>IEEE Workshop on Applications of Computer Vision</i>, January 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wacv08.pdf">PDF</a>
+  - - A Context-Based Tracker Switching Framework
+    - A. Tyagi and J. Davis
+    - <i>IEEE Workshop on Motion and Video Computing</i>, January 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wmvc08a.pdf">PDF</a>
+  - - Steepest Descent For Efficient Covariance Tracking
+    - A. Tyagi, J. Davis, and G. Potamianos
+    - <i>IEEE Workshop on Motion and Video Computing</i>, January 2008.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wmvc08b.pdf">PDF</a>
+  - - Integrating Appearance and Motion Cues for Simultaneous Detection and Segmentation of Pedestrians
+    - V. Sharma and J. Davis
+    - <i>IEEE International Conference on Computer Vision</i>, October 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/iccv07.pdf">PDF</a>
+  - - Kernel-Based 3D Tracking
+    - A. Tyagi, M. Keck, J. Davis, and G. Potamianos
+    - <i>IEEE International Workshop on Visual Surveillance</i>, June 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/vs07b.pdf">PDF</a>
+  - - Simultaneous Detection and Segmentation of Pedestrians using Top-down and Bottom-up Processing
+    - V. Sharma and J. Davis
+    - <i>IEEE International Workshop on Visual Surveillance</i>, June 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/vs07a.pdf">PDF</a>
+  - - Background-Subtraction using Contour-based Fusion of Thermal and Visible Imagery
+    - J. Davis and V. Sharma
+    - <i>Computer Vision and Image Understanding</i>, Vol. 106, No. 2-3, 2007, pp. 162-182.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cviu07.pdf">PDF</a>,<a href="http&#58//dx.doi.org/10.1016/j.cviu.2006.06.010">HTML</a>
+  - - An Adaptive Focus-of-Attention Model for Video Surveillance and Monitoring
+    - J. Davis, A. Morison, and D. Woods
+    - <i>Machine Vision and Applications</i>, Vol. 18, No. 1, 2007, pp. 41-64.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/mva07.pdf">PDF</a>
+  - - Building Adaptive Camera Models for Video Surveillance
+    - J. Davis, A. Morison, and D. Woods
+    - <i>IEEE Workshop on Application of Computer Vision</i>, February 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wacv07a.pdf">PDF</a>
+  - - Extraction of Person Silhouettes from Surveillance Imagery using MRFs
+    - V. Sharma, J. Davis, and A. Tyagi
+    - <i>IEEE Workshop on Application of Computer Vision</i>, February 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wacv07b.pdf">PDF</a>
+  - - Fusion of Multiple Camera Views for Kernel-Based 3D Tracking
+    - A. Tyagi, G. Potamianos, J. Davis, and S. Chu
+    - <i>IEEE Workshop on Motion and Video Computing</i>, February 2007.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wmvc07.pdf">PDF</a>
+  - - Coverage Optimization to Support Security Monitoring
+    - A. Murray, K. Kim, J. Davis, R. Machiraju, R. Parent
+    - <i>Computers, Environment and Urban Systems</i>, Vol. 31, 2007, pp. 133-147.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ceus07.pdf">PDF</a>
+  - - Background-Subtraction in Thermal Imagery Using Contour Saliency
+    - J. Davis and V. Sharma
+    - <i>International Journal of Computer Vision</i>, Vol. 71, No. 2, 2007, pp. 161-181. (online version June 2006)
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ijcv07.pdf">PDF</a>
+  - - Tracking Mean Shift Clustered Point Clouds for 3D Surveillance 
+    - M. Keck, J. Davis, and A. Tyagi 
+    - <i>ACM Multimedia Workshop on Video Surveillance and Sensor Networks</i>, October 2006, pp. 187-194.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/vssn06b.pdf">PDF</a>
+  - - Multiview Fusion for Canonical View Generation based on Homography Constraints 
+    - A. Tyagi, J. Davis, and M. Keck 
+    - <i>ACM Mulimedia Workshop on Video Surveillance and Sensor Networks</i>, October 2006, pp. 61-69.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/vssn06a.pdf">PDF</a>
+  - - Minimal-Latency Human Action Recognition using Reliable-Inference
+    - J. Davis and A. Tyagi
+    - <i>Image and Vision Computing</i>, Vol. 24, 2006, pp. 455-472.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ivc06.pdf">PDF</a>
+  - - Human Activity Recognition for Synthesis
+    - Y. Chen, R. Parent, R. Machiraju, and J. Davis 
+    - <i>IEEE Workshop on Learning, Representation, and Context for Human Sensing in Video</i>, New York, NY, June 22, 2006.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/lrchsv06.pdf">PDF</a>
+  - - Feature-level Fusion for Object Segmentation using Mutual Information
+    - V. Sharma and J. Davis
+    - <i>IEEE Workshop on Object Tracking and Classification in and Beyond the Visible Spectrum</i>, 
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/otcbvs06.pdf">PDF</a>
+  - - Sampling Representative Examples for Dimensionality Reduction and Recognition - Bootstrap Bumping LDA
+    - H. Gao and J. Davis
+    - <i>European Conference on Computer Vision (ECCV)</i>, Graz, Austria, May 7-13, 2006, Part III, LNCS 3953, pp. 275-287.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/eccv06.pdf">PDF</a>
+  - - Why Direct LDA Is Not Equivalent to LDA
+    - H. Gao and J. Davis
+    - <i>Pattern Recognition</i>, Vol. 39, 2006, pp. 1002-1006.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/pr06.pdf">PDF</a>
+  - - Event Template Hierarchies as Means for Human-Automation Collaboration in Security Surveillance
+    - D. Woods, S. McNee, J. Davis, A. Morison, P. Maughan, and K. Christoffersen
+    - <i>Human Factors and Ergonomics Society Annual Meeting</i>, Orlando, FL, September 26-28, 2005.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/eventTemplates05.pdf">PDF</a>
+  - - Modeling Behavior Trends and Detecting Abnormal Events using Seasonal Kalman Filters
+    - J. Davis and M. Keck
+    - <i>Workshop on Human Activity Recognition and Modeling</i>, Oxford, UK,  September 9, 2005.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/harem05.pdf">PDF</a>
+  - - Fusion-based Background-Subtraction using Contour Saliency
+    - J. Davis and V. Sharma
+    - <i>IEEE Workshop on Object Tracking and Classification in and Beyond the Visible Spectrum</i>, 
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/otcbvs05.pdf">PDF</a>
+  - - A Two-Stage Template Approach to Person Detection in Thermal Imagery
+    - J. Davis and M. Keck
+    - <i>Workshop on Applications of Computer Vision</i>,  Breckenridge, Colorado, January 5-7, 2005.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wacv05.pdf">PDF</a>
+  - - Differential Video Coding of Face and Gesture Events in Presentation Videos
+    - R. Tan and J. Davis
+    - <i>Computer Vision and Image Understanding</i>, Vol. 96, No. 2, 2004, pp. 200-215.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cviu04.pdf">PDF</a>
+  - - Robust Detection of People in Thermal Imagery
+    - J. Davis and V. Sharma
+    - <i>International Conference on Pattern Recognition</i>,
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/icpr04.pdf">PDF</a>
+  - - Sequential Reliable-Inference for Rapid Detection of Human Actions
+    - J. Davis
+    - <i>IEEE Workshop on Detection and Recognition of Events in Video</i>,
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/event04.pdf">PDF</a>
+  - - Robust Background-Subtraction for Person Detection in Thermal Imagery
+    - J. Davis and V. Sharma
+    - <i>IEEE International Workshop on Object Tracking and Classification 
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/otcbvs04.pdf">PDF</a>
+  - - Gender Recognition from Walking Movements using Adaptive Three-Mode PCA
+    - J. Davis and H. Gao
+    - <i>IEEE Workshop on Articulated and Nonrigid Motion</i>, Washington DC, June 27, 2004.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/anm04.pdf">PDF</a>
+  - - An Expressive Three-Mode Principal Components Model for Gender Recognition
+    - J. Davis and H. Gao
+    - <i>Journal of Vision</i>, Vol. 4, No. 5, 2004, pp. 362-377.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/jov04.pdf">PDF</a>, <a href="http&#58//www.journalofvision.org/4/5/2/">HTML</a>
+  - - An Expressive Three-Mode Principal Components Model of Human Action Style
+    - J. Davis and H. Gao
+    - <i>Image and Vision Computing</i>, Vol. 21, No. 11, 2003, pp. 1001-1016.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ivc03.pdf">PDF</a>
+  - - Recognizing Human Action Efforts&#58 An Adaptive Three-Mode PCA Framework
+    - J. Davis and H. Gao
+    - <i>International Conference on Computer Vision</i>, Nice, France,
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/iccv03.pdf">PDF</a>
+  - - A Reliable-Inference Framework for Recognition of Human Actions
+    - J. Davis and A. Tyagi
+    - <i>IEEE International Conference on Advanced Video and Signal Based Surveillance</i>,
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avss03.pdf">PDF</a>
+  - - A Three-Mode Expressive Feature Model of Action Effort
+    - J. Davis, H. Gao, and V. Kannappan
+    - <i>IEEE Workshop on Motion and Video Computing</i>, Orlando, Florida, December 5-6, 2002, pp. 139-144.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/motion02.pdf">PDF</a>
+  - - Motion Segmentation and Pose Recognition with Motion History Gradients
+    - G. Bradski and J. Davis
+    - <i>International Journal of Machine Vision and Applications</i>, Vol. 13, No. 3, 2002, pp. 174-184.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/mva02.pdf">PDF</a>
+  - - Analysis and Recognition of Walking Movements 
+    - J. Davis and S. Taylor 
+    - <i>International Conference on Pattern Recognition</i>, Quebec City, Canada, August 11-15, 2002, pp. 315-318.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/icpr02.pdf">PDF</a>
+  - - Expressive Features for Movement Exaggeration
+    - J. Davis and V. Kannappan
+    - <i>SIGGRAPH Conference Abstracts and Applications (Technical Sketches)</i>, San Antonio, Texas, July 24, 2002, pp. 182.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/sketch02.pdf">PDF</a>
+  - - The Representation and Recognition of Action Using Temporal Templates
+    - A. Bobick and J. Davis
+    - <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, Vol. 23, No. 3, 2001, pp. 257-267.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/pami01.pdf">PDF</a>
+  - - A Perceptual User Interface for Recognizing Head Gesture Acknowledgements
+    - J. Davis and S. Vaks
+    - <i>ACM Workshop on Perceptual User Interfaces</i>, Orlando, Florida, November 15-16, 2001.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/PUI2001-Davis.pdf">PDF</a>
+  - - Representing and Recognizing Human Motion&#58 From Motion Templates to Movement Categories
+    - J. Davis
+    - <i>Digital Human Modeling Workshop</i>, International Conference on Intelligent Robots and Systems, Maui, Hawaii, October 29, 2001.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/iros.pdf">PDF</a>
+  - - Hierarchical Motion History Images for Recognizing Human Motion
+    - J. Davis
+    - <i>IEEE Workshop on Detection and Recognition of Events in Video</i>, Vancouver, Canada, July 8, 2001, pp. 39-46.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/event01.pdf">PDF</a>
+  - - Visual Categorization of Children and Adult Walking Styles
+    - J. Davis
+    - <i>International Conference on Audio- and Video-based Biometric Person Authentication</i>, Halmstad, Sweden, June 6-8, 2001, pp. 295-300.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/avbpa01.pdf">PDF</a>
+  - - Physically Interactive Story Environments
+    - C. Pinhanez, J. Davis, S. Intille, M. Johnson, A. Wilson, A. Bobick, and B. Blumberg
+    - <i>IBM Systems Journal</i>, Vol. 39, No. 3/4, 2000, pp. 438-455.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ibmpaper.pdf">PDF</a>
+  - - Motion Segmentation and Pose Recognition with Motion History Gradients
+    - G. Bradski and J. Davis
+    - <i>IEEE Workshop on Applications of Computer Vision</i>, December 2000, pp. 174-184.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/wacv00.pdf">PDF</a>
+  - - Categorical Representation and Recognition of Oscillatory Motion Patterns
+    - J. Davis, A. Bobick, W. Richards
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 2000, pp. 628-635.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/cvpr2000.pdf">PDF</a>
+  - - Relating Categories of Intentional Animal Motions
+    - J. Davis and W. Richards
+    - OSU Dept. Computer and Information Science Technical Report OSU-CISRC-11/00-TR25, November 2000.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/OSU-TR25.pdf">PDF</a>
+  - - The Kidsroom&#58 A Perceptually-Based Interactive and Immersive Story Environment
+    - A. Bobick, S. Intille, J. Davis, F. Baird, C. Pinhanez, L. Campbell, Y. Ivanov, A. Schutte, and A. Wilson
+    - <i>Presence&#58 Teleoperators and Virtual Environments</i>, Vol. 8, No. 4, 1999, pp. 367-391.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/kidsroom.pdf">PDF</a>
+  - - Toward 3-D Gesture Recognition
+    - J. Davis and M. Shah
+    - <i>International Journal of Pattern Recognition and Artificial Intelligence</i>, Volume 13 Number 3, May 1999, pp. 381-393.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ijprai.pdf">PDF</a>
+  - - Real-time Motion Template Gradients using Intel CVLib
+    - J. Davis and G. Bradski
+    - <i>IEEE ICCV Workshop on Frame-rate Vision</i>, September 1999.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/motiontemplategradient.pdf">PDF</a>
+  - - Recognizing Movement using Motion Histograms
+    - J. Davis
+    - MIT Technical Report #487, March 1999.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-487.pdf">PDF</a>
+  - - A Robust Human-Silhouette Extraction Technique for Interactive Virtual Environments
+    - J. Davis and A. Bobick
+    - In <i>Lecture Notes in Artificial Intelligence</i> (Ed. by N. Magnenat-Thalmann &amp; D. Thalmann), 1537, Heidelberg&#58 Springer-Verlag, 1998, pp. 12-25.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/captech98.pdf">PDF</a>
+  - - Virtual PAT&#58 A Virtual Personal Aerobics Trainer
+    - J. Davis and A. Bobick
+    - <i>Workshop on Perceptual User Interfaces</i>, November 1998, pp. 13-18.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/pui98.pdf">PDF</a>
+  - - Perceptive Spaces for Performance and Entertainment
+    - C. Wren, F. Sparacino, A. Azarbayejani, T. Darrell, J. Davis, T. Starner, A. Kotani, C. Chao, M. Hlavac, K. Russell, A. Bobick, and A. Pentland
+    - <i>ATR Workshop on Virtual Communication Environments</i>, April 1998.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-372B.pdf">PDF</a>
+  - - Design Decisions for Interactive Environments&#58 Evaluating the KidsRoom Application Using a Deep Perceptual Interface
+    - A. Bobick, S. Intille, J. Davis, F. Baird, C. Pinhanez, L. Campbell, Y. Ivanov, A. Schutte, and A. Wilson
+    - <i>AAAI Spring Symposium on Intelligent Environments</i>, March 1998, pp. 7-16.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/ie.pdf">PDF</a>
+  - - The KidsRoom&#58 An Example Application Using a Deep Perceptual Interface
+    - A. Bobick, J. Davis, S. Intille
+    - <i>Workshop on Perceptual User Interfaces</i>, October 1997, pp. 1-4.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/pui97.pdf">PDF</a>
+  - - The Representation and Recognition of Action Using Temporal Templates
+    - J. Davis and A. Bobick
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 1997, pp. 928-934.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-402.pdf">PDF</a>
+  - - Real-Time Closed-World Tracking
+    - S. Intille, J. Davis, and A. Bobick
+    - <i>IEEE Conference on Computer Vision and Pattern Recognition</i>, June 1997, pp. 697-703.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-403.pdf">PDF</a>
+  - - Action Recognition Using Temporal Templates
+    - A. Bobick and J. Davis
+    - In M. Shah and R. Jain (eds.) <i>Motion-Based Recognition</i>, 1997, pp. 125-146.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/motrec.pdf">PDF</a>
+  - - Real-time Recognition of Activity Using Temporal Templates
+    - A. Bobick and J. Davis
+    - <i>IEEE Workshop on Applications of Computer Vision</i>, December 1996, pp. 39-42.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-386.pdf">PDF</a>
+  - - An Appearance-based Representation of Action
+    - A. Bobick and J. Davis
+    - <i>IEEE International Conference on Pattern Recognition</i>, August 1996, pp. 307-312.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/TR-369.pdf">PDF</a>
+  - - Visual Gesture Recognition
+    - J. Davis and M. Shah
+    - <i>Vision, Image and Signal Processing</i>, Vol. 141, No. 2, 1994, pp. 101-106.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/visp.pdf">PDF</a>
+  - - Recognizing Hand Gestures
+    - J. Davis and M. Shah
+    - <i>European Conference on Computer Vision</i>, 1994, pp. 331-340.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/eccv.pdf">PDF</a>
+  - - Determining 3-D Hand Motion
+    - J. Davis and M. Shah
+    - <i>IEEE Asilomar Conference on Signals, Systems, and Computers</i>, October 1994, pp. 1262-1266.
+    - <a href="http&#58//web.cse.ohio-state.edu/~davis.1719/Publications/asilomar.pdf">PDF</a>

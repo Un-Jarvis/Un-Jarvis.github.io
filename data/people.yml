@@ -1,0 +1,46 @@
+sections:
+  - title:
+      Current Students
+    people:
+      - name: Joe Barker
+      - name: Manjari Akella
+      - name: Ryan Niemocienski
+      - name: Dan Marchese
+      - name: Jeremy Ledonne
+      - name: Daniya Zamalieva
+
+  - title:
+      Alumni
+    people:
+      - name: Kyle Salberg
+        info: Undergraduate research assistant. Graduated June 2012. (Now at Garmin)
+      - name: Michael Schoenberg
+        info: Undergraduate research assistant. Graduated June 2012. (Now at Microsoft)
+      - name: Ronak Buch
+        info: Undergraduate research assistant. Graduated June 2012. (Now at UIUC)
+      - name: Kevin Streib
+        info: Ph.D. Thesis:&nbsp"Improved Graph-based Clustering with Applications in Computer Vision and Behavior Analysis", March 2012. (and Post-Doc with Davis)
+      - name: Karthik Sankaranarayanan
+        info: Ph.D. Thesis:&nbsp"Multiple Instance Learning for Localization and Tracking of Persistent Targets", August 2011. (Now at IBM India)
+      - name: Ryan Feather
+        info: MS Thesis:&nbsp"Tracking and Activity Analysis in Wide Area Aerial Surveillance Video", August 2011.
+      - name: Matt Nedrich
+        info: MS Thesis:&nbsp"Detecting Behavioral Zones in Local and Global Camera Views", June 2011. (Now at Intel)
+      - name: Mark Keck
+        info: Ph.D. Thesis:&nbsp"Occlusion Recovery and Reasoning for 3D Surveillance", August 2009. (Now at BAE)
+      - name: Karl Salva
+        info: Undergraduate research assistant. Graduated March 2009. (Now at Numerica)
+      - name: Ambrish Tyagi
+        info: Ph.D. Thesis:&nbsp"Layered Tracker Switching for Visual Surveillance", August 2008. (Now at STI - Omron Scientific Technologies)
+      - name: Vinay Sharma
+        info: Ph.D. Thesis:&nbsp"Simultaneous Object Detection and Segmentation using Top-down and Bottom-up Processing", November 2007. (Now at Texas Instruments)
+      - name: Hui Gao
+        info: Ph.D. Thesis:&nbsp"Extracting Key Features for Analysis and Recognition in Computer Vision", February 2006. (Now at Microsoft)
+      - name: Alex Morison
+        info: MS Thesis:&nbsp"An Adaptive Focus-of-Attention Model for Video Surveillance and Monitoring", August 2006. (Now at OSU/AFRL)
+      - name: Vignesh Kannappan
+        info: MS Thesis:&nbsp"Automatic Temporal Segmentation of Human Actions", June 2003. (Now at Microsoft)
+      - name: Stephanie Taylor
+        info: MS Thesis:&nbsp"Computer Analysis and Recognition of Walking Movements", June 2002.
+      - name: Robin Tan
+        info: Undergraduate Honors Thesis:&nbsp"Human-Content Video Coding", March 2002.

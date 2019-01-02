@@ -1,0 +1,119 @@
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  margin: 0px; }
+
+div.navbar {
+  overflow: hidden;
+  background-color: #bb0000;
+  font-family: Arial;
+  text-align: center; }
+
+.navbar span.navname {
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  padding: 1em 1em 0.5em;
+  text-decoration: none; }
+
+.navbar nav.info {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 0em 0.8em;
+  text-decoration: none; }
+
+.navList li {
+  padding: 0.8em;
+  display: inline; }
+  .navList li:hover {
+    background: #9f0000; }
+
+.navList li a {
+  text-align: center;
+  text-decoration: none;
+  color: white; }
+  .navList li a:hover {
+    color: black; }
+
+div.infobar {
+  overflow: hidden;
+  background-color: #bb0000;
+  display: block;
+  float: none;
+  text-align: center;
+  font-family: Arial;
+  padding: 20px 400px 40px 400px;
+  color: white;
+  font-size: 16px; }
+
+.infobar ul {
+  display: inline;
+  list-style: none; }
+
+.infobar ul li a {
+  text-decoration: none;
+  color: white; }
+  .infobar ul li a:hover {
+    color: black; }
+
+div.yield {
+  padding: 30px 100px 50px; }
+
+img.profile_pic {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 25%; }
+
+ul.outer {
+  list-style: none;
+  padding-left: 0;
+  font-weight: bold; }
+
+li.outer {
+  list-style: none; }
+
+ul.inner {
+  font-weight: normal; }
+
+p.year {
+  text-align: center;
+  font-weight: bold; }
+
+p.sabbatical {
+  text-align: center; }
+
+table.courses {
+  margin: 0 auto;
+  width: 100%; }
+
+table.courses td {
+  text-align: center; }
+
+table.courses .course {
+  width: 25%; }
+
+table.courses .title {
+  width: 50%; }
+
+table.courses .title a {
+  color: black; }
+  table.courses .title a:hover {
+    color: blue; }
+
+table.courses .season {
+  width: 25%; }
+
+span.name {
+  text-decoration: underline; }
+
+.picture_page {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 60%; }
+
+p.para {
+  text-align: center; }
