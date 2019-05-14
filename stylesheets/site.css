@@ -6,36 +6,39 @@ body {
 
 div.navbar {
   overflow: hidden;
-  background-color: #bb0000;
+  background-color: #ffffff;
   font-family: Arial;
-  text-align: center; }
+  text-align: center; 
+  height: 60px; }
 
-.navbar span.navname {
-  font-weight: bolder;
-  font-size: 40px;
-  color: white;
-  padding: 1em 1em 0.5em;
-  text-decoration: none; }
+.boxShadow {
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.25); }
 
 .navbar nav.info {
   text-align: center;
-  color: white;
   font-size: 20px;
-  padding: 0em 0.8em;
   text-decoration: none; }
 
+.navList {
+  display: inline-block;
+  padding: 0px; }
+
 .navList li {
-  padding: 0.8em;
   display: inline; }
-  .navList li:hover {
-    background: #9f0000; }
 
 .navList li a {
   text-align: center;
   text-decoration: none;
-  color: white; }
+  color: #657786; 
+  padding: 15px 15px 15px; }
   .navList li a:hover {
-    color: black; }
+    box-sizing: border-box;
+    border-bottom: 0 solid;
+    border-bottom-width: 2px;
+    border-color: #495C63;
+    color: #495C63;
+    transition: all .15s ease-in-out;
+}
 
 div.infobar {
   overflow: hidden;
