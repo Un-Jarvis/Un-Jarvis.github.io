@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  color: #333;
+  color: #8a8a8a;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   margin: 0px; }
 
@@ -19,6 +19,9 @@ div.navbar {
   top: 0;
   width: 100% }
 
+.topBar + .yield {
+  padding-top: 90px; }
+
 .navbar nav.info {
   text-align: center;
   font-size: 20px;
@@ -34,16 +37,20 @@ div.navbar {
 .navList li a {
   text-align: center;
   text-decoration: none;
-  color: #657786; 
+  color: #8a8a8a; 
   padding: 15px 15px 15px; }
-  .navList li a:hover {
-    box-sizing: border-box;
-    border-bottom: 0 solid;
-    border-bottom-width: 2px;
-    border-color: #495C63;
-    color: #495C63;
-    transition: all .15s ease-in-out;
-}
+
+
+.navList li a.active {
+  font-weight: bold; }
+
+.navList li a:hover {
+  box-sizing: border-box;
+  border-bottom: 0 solid;
+  border-bottom-width: 2px;
+  border-color: #696969;
+  color: #696969;
+  transition: all .15s ease-in-out; }
 
 div.infobar {
   overflow: hidden;
@@ -63,8 +70,8 @@ div.infobar {
 .infobar ul li a {
   text-decoration: none;
   color: white; }
-  .infobar ul li a:hover {
-    color: black; }
+.infobar ul li a:hover {
+  color: black; }
 
 div.yield {
   padding: 30px 100px 50px; }

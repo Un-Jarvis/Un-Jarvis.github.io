@@ -6,25 +6,21 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Jarvis Huang 黄钰骅</title>
-    <link href="stylesheets/site.css" rel="stylesheet" />
-    <script src="javascripts/site.js"></script>
+    <title>Jarvis</title>
+    <link type="text/css" href="stylesheets/site.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <div class="header">
-      <img src="images/header.jpg" alt="" style="margin-top: 0px; max-width: 100%"/>
-
-      <div class="navbar boxShadow" id="topHeader">
-        <nav class="info">
-          <ul class="navList">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pictures.html">Pictures</a></li>
-          </ul>
-        </nav>
-      </div>
-
+  <body onscroll="fixedHeader()">
+    <img src="images/header.jpg" alt="" style="margin-top: 0px; max-width: 100%"/>
+    <div class="navbar boxShadow" id="topHeader">
+      <nav class="info">
+        <ul class="navList">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="pictures.html">Pictures</a></li>
+        </ul>
+      </nav>
     </div>
+
 
 
 
@@ -39,20 +35,34 @@
         <img class="profile_pic" src="images/profile.jpg"/>
         <h1>Course Website</h1>
         <ul>
-              <li>
-                <a href="http://web.cse.ohio-state.edu/~crawfis.3/cse786/index.html">CSE 5912</a>
-              </li>
+          <li>
+            <a href="http://web.cse.ohio-state.edu/~crawfis.3/cse786/index.html">CSE 5912</a>
+          </li>
         </ul>
-
-
-
-
+        <br /><br /><br /><br />
     </div>
+
     <div class="infobar">
-  <ul>
-    <li><a href="http://www.osu.edu/">The Ohio State University</a></li>
-  </ul>
-</div>
+      <ul>
+        <li><a href="http://www.osu.edu/">The Ohio State University</a></li>
+      </ul>
+    </div>
+
+    <script>
+      // Get the header
+      var header = document.getElementById("topHeader");
+      
+      // Get the offset position of the navbar
+      var sticky = header.offsetTop;
+      
+      function fixedHeader() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("topBar");
+        } else {
+          header.classList.remove("topBar");
+        }
+      }
+    </script>
 
   </body>
 </html>
