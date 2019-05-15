@@ -14,6 +14,11 @@ div.navbar {
 .boxShadow {
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.25); }
 
+.topBar {
+  position: fixed;
+  top: 0;
+  width: 100% }
+
 .navbar nav.info {
   text-align: center;
   font-size: 20px;
