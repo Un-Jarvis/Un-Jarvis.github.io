@@ -22,6 +22,7 @@ div#topHeader, div.dropdown-content {
   padding-top: 90px; }
 
 nav.navbar {
+  display: inline-block;
   background-color: inherit;
   overflow: hidden;
   font-size: 20px; }
