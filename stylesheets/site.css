@@ -54,7 +54,7 @@ div.navbar {
 
 div.infobar {
   overflow: hidden;
-  background-color: #bb0000;
+  background-color: #ececec;;
   display: block;
   float: none;
   text-align: center;
@@ -63,15 +63,18 @@ div.infobar {
   color: white;
   font-size: 16px; }
 
-.infobar ul {
+div.infobar a {
+  text-decoration: none; }
+
+div.infobar ul {
   display: inline;
   list-style: none; }
 
-.infobar ul li a {
+div.infobar ul li a {
   text-decoration: none;
-  color: white; }
-.infobar ul li a:hover {
-  color: black; }
+  color: #8a8a8a; }
+div.infobar ul li a:hover {
+  color: #696969; }
 
 div.yield {
   padding: 30px 100px 50px; }
@@ -131,3 +134,8 @@ span.name {
 
 p.para {
   text-align: center; }
+
+img.social {
+  width: 45px; 
+  height: 45px;
+  padding: 15px; }
