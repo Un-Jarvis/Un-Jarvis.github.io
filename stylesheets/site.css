@@ -137,55 +137,11 @@ img.profile_pic {
   overflow: hidden;
   width: 20%; }
 
-ul.outer {
-  list-style: none;
-  padding-left: 0;}
-
-li.outer {
-  list-style: none; }
-
-ul.inner {
-  font-weight: normal; }
-
-p.year {
-  text-align: center;
-  font-weight: bold; }
-
-p.sabbatical {
-  text-align: center; }
-
-table.courses {
-  margin: 0 auto;
-  width: 100%; }
-
-table.courses td {
-  text-align: center; }
-
-table.courses .course {
-  width: 25%; }
-
-table.courses .title {
-  width: 50%; }
-
-table.courses .title a {
-  color: black; }
-  table.courses .title a:hover {
-    color: blue; }
-
-table.courses .season {
-  width: 25%; }
-
-span.name {
-  text-decoration: underline; }
-
 .picture_page {
   display: block;
   margin: 0 auto;
   overflow: hidden;
   width: 75%; }
-
-p.para {
-  text-align: center; }
 
 img.social {
   width: 45px; 
