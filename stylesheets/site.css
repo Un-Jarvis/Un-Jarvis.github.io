@@ -19,7 +19,7 @@ div#topHeader, div.dropdown-content {
   width: 100% }
 
 .topBar + .yield {
-  padding-top: 90px; }
+  padding-top: 85.65px; }
 
 nav.navbar {
   display: inline-block;
@@ -49,7 +49,7 @@ nav.navbar {
   padding: 15px 15px 15px;
   margin: 0px; }
 
-.navbar .active {
+.active {
   font-weight: bold; }
 
 .navbar a:hover, .navbar .dropdown:hover button {
@@ -66,6 +66,43 @@ nav.navbar {
 
 .navbar .dropdown:hover .dropdown-content {
   display: block; }
+
+div.sidebar {
+  float: left;
+  text-align: center;
+  width: 200px;
+  z-index: 1;
+  top: 85.65px;
+  left: 100px;
+  background: white;
+  overflow-x: hidden;
+  padding: 10px;
+  color: black;
+}
+
+.sidebar a {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #8a8a8a; 
+  padding: 10px; }
+
+.sidebar a:hover {
+  display: block;
+  color: #696969;
+  transition: all .15s ease-in-out;
+}
+
+.fixedSidebar {
+  position: fixed;
+  top: 250px;
+}
+
+div.main {
+  margin-left: 220px;
+  padding: 0px 30px;
+}
 
 div.infobar {
   overflow: hidden;
@@ -145,7 +182,7 @@ span.name {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  width: 60%; }
+  width: 75%; }
 
 p.para {
   text-align: center; }
