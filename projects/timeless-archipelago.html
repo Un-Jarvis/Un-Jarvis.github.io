@@ -7,39 +7,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Jarvis</title>
-  <link type="text/css" href="stylesheets/site.css" rel="stylesheet" />
+  <link type="text/css" href="../stylesheets/site.css" rel="stylesheet" />
 </head>
 
-<body onscroll="fixedHeader()">
-  <img src="images/banner.jpg" alt="" style="margin-top: 0px; max-width: 100%" />
+<body onscroll="fixedHeaderAndSiderbar()">
+  <img src="../images/banner.jpg" alt="" style="margin-top: 0px; max-width: 100%" />
   <div class="boxShadow" id="topHeader">
     <nav class="navbar">
-      <a class="active" href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
+      <a href="../index.html">Home</a>
+      <a class="active" href="../projects.html">Projects</a>
       <div class="dropdown">
         <button>Pictures</button>
         <div class="dropdown-content boxShadow">
-          <a href="pictures/pictures.html">BNS Characters</a>
-          <a href="pictures/pictures.html">BNS Screenshots</a>
-          <a href="pictures/pictures.html">Photographs</a>
+          <a href="../pictures/pictures.html">BNS Characters</a>
+          <a href="../pictures/pictures.html">BNS Screenshots</a>
+          <a href="../pictures/pictures.html">Photographs</a>
         </div>
       </div>
     </nav>
   </div>
 
   <div class="yield">
-    <img class="profile_pic" src="images/profile.jpg" />
+    <div class="sidebar boxShadow" id="sidebar">
+      <a href="../projects/timeless-archipelago.html" class="active">Timeless Archipelago</a>
+      <a href="../projects/file-sharing.html">File Sharing</a>
+      <a href="../projects/im-platform.html">Multi-User Instant Messaging Platform</a>
+    </div>
 
-    <h1>Course Website</h1>
-    <ul>
-      <li>
-        <a href="http://web.cse.ohio-state.edu/~crawfis.3/cse786/index.html">CSE 5912</a>
-      </li>
-    </ul>
-    <br /><br /><br /><br />
-
-    <h1>About</h1>
-    <br /><br /><br /><br />
+    <div class="main">
+      <h1 class="title">Timeless Archipelago</h1>
+      <img src="../images/characters/1.jpg" alt="" class="picture_page" />
+      <br /><br /><br /><br /><br /><br />
+    </div>
   </div>
 
   <div class="infobar">
@@ -69,15 +68,25 @@
   <script>
     // Get the header
     var header = document.getElementById("topHeader");
-
     // Get the offset position of the navbar
-    var sticky = header.offsetTop;
+    var headerOffset = header.offsetTop;
 
-    function fixedHeader() {
-      if (window.pageYOffset > sticky) {
+    // Get the sidebar
+    var sidebar = document.getElementById("sidebar");
+    // Get the offset position of the sidebar
+    var sidebarOffset = sidebar.offsetTop;
+
+    function fixedHeaderAndSiderbar() {
+      if (window.pageYOffset > headerOffset) {
         header.classList.add("topBar");
       } else {
         header.classList.remove("topBar");
+      }
+
+      if (window.pageYOffset > sidebarOffset - 85.65) {
+        sidebar.classList.add("fixedSidebar");
+      } else {
+        sidebar.classList.remove("fixedSidebar");
       }
     }
   </script>

@@ -104,6 +104,10 @@ div.main {
   padding: 0px 30px;
 }
 
+h1.title {
+  text-align: center;
+}
+
 div.infobar {
   overflow: hidden;
   background-color: #ececec;;
