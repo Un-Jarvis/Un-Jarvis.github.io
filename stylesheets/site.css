@@ -104,9 +104,18 @@ div.main {
   padding: 0px 30px;
 }
 
-h1.title {
+div.yield h1.title {
   text-align: center;
 }
+
+div.yield ul li {
+  padding: 2.5px 0px; }
+div.yield ul li a {
+  text-decoration: none;
+  color: #8a8a8a; }
+div.yield ul li a:hover {
+  text-decoration: underline;
+  color: #696969; }
 
 div.infobar {
   overflow: hidden;
@@ -141,7 +150,13 @@ img.profile_pic {
   overflow: hidden;
   width: 20%; }
 
-.picture_page {
+img.title_pic {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 50%; }
+
+img.picture_page {
   display: block;
   margin: 0 auto;
   overflow: hidden;
