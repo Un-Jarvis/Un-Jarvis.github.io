@@ -91,22 +91,18 @@ div.sidebar {
 .sidebar a:hover {
   display: block;
   color: #696969;
-  transition: all .15s ease-in-out;
-}
+  transition: all .15s ease-in-out; }
 
 .fixedSidebar {
   position: fixed;
-  top: 250px;
-}
+  top: 250px; }
 
 div.main {
   margin-left: 220px;
-  padding: 0px 30px;
-}
+  padding: 0px 30px; }
 
 div.yield h1.title {
-  text-align: center;
-}
+  text-align: center; }
 
 div.yield ul li {
   padding: 2.5px 0px; }
