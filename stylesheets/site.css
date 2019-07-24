@@ -26,22 +26,17 @@ div#topHeader, div.dropdown-content {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  width: 70%;
-  padding: 15px 15px 0px;
-}
-
-img.social {
-  width: 45px; 
-  height: 45px;
-  padding: 15px; 
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); 
+  width: 100%;
+  padding: 0px 0px 15px;
 }
 
 .project a {
   font-size: 20px;
   text-decoration: none;
   color: #8a8a8a; 
+}
+.project a:hover {
+  color: #696969;
 }
 
 .topBar {
@@ -59,6 +54,7 @@ nav.navbar {
   background-color: inherit;
   overflow: hidden;
   font-size: 20px; 
+  z-index: 5;
 }
 
 .navbar a {
@@ -101,7 +97,7 @@ nav.navbar {
 .navbar .dropdown .dropdown-content {
   display: none;
   position: absolute;
-  z-index: 1; 
+  z-index: 10; 
 }
 
 .navbar .dropdown:hover .dropdown-content {
@@ -188,6 +184,7 @@ div.infobar ul li a {
   color: #8a8a8a; 
 }
 div.infobar ul li a:hover {
+  text-decoration: underline;
   color: #696969; 
 }
 
@@ -223,7 +220,6 @@ img.social {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); 
 }
-
 img.social:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%); 
