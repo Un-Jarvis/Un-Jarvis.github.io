@@ -39,7 +39,15 @@
       <h1 class="title">Timeless Archipelago</h1>
 
       <h2>Trailer</h2>
-      <iframe src="https://player.bilibili.com/player.html?aid=51494112&cid=90130949&page=1" height="500px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+      <div class="embeded-video">
+        <img src="../images/timeless-archipelago/video.jpg" />
+      </div>
+      <script>
+        var video = document.querySelector(".embeded-video");
+        video.onclick = function() {
+          video.innerHTML = "<iframe src='https://player.bilibili.com/player.html?aid=51494112&cid=90130949&page=1' height='500px' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'></iframe>";
+        }
+      </script>
 
       <h2>Description</h2>
       <ul>
