@@ -150,11 +150,11 @@ div.yield ul li {
   padding: 2.5px 0px; 
 }
 div.yield ul li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #8a8a8a; 
 }
 div.yield ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #696969; 
 }
 
