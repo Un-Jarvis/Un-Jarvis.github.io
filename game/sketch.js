@@ -2,7 +2,7 @@
 var canvasWidth = 1000;
 var canvasHeight = 650;
 var gameStatus = 0;
-var score = 0;
+var score = -1;
 
 // player settings
 var playerX, playerY;
@@ -27,7 +27,7 @@ var gravity = 0.75;
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
 
-  // game settings 
+  // game settings
 
   // player settings
   playerX = canvasWidth / 5;
@@ -43,7 +43,11 @@ function draw() {
   textAlign(CENTER);
   fill(50, 220, 50);
   textSize(30);
-  text("Score: " + score, canvasWidth / 2, 50);
+  if (score <= 0) {
+    text("Score: 0", canvasWidth / 2, 50);
+  } else {
+    text("Score: " + score, canvasWidth / 2, 50);
+  }
 
   // draw player
   drawPlayer();
@@ -58,7 +62,7 @@ function draw() {
 
 function init() {
   gameStatus = 0;
-  score = 0;
+  score = -1;
 
   playerX = canvasWidth / 5;
   playerY = playerSize / 2;
@@ -110,7 +114,11 @@ function addsurfaces() {
     var height = round(random(this.surfaceHeightMin, this.surfaceHeightMax));
     var heightDiff = abs(surfaces[surfaces.length - 1].height - height);
     var dist = round(random(300 + heightDiff, 600));
-    var surface = new Surface(surfaces[surfaces.length - 1].posX + dist, width, height);
+    var surface = new Surface(
+      surfaces[surfaces.length - 1].posX + dist,
+      width,
+      height
+    );
     surfaces.push(surface);
   }
 }
@@ -166,10 +174,12 @@ function detectCollision() {
 }
 
 function collide(surface) {
-  if (playerY + playerSize / 2 > canvasHeight - surface.height &&
+  if (
+    playerY + playerSize / 2 > canvasHeight - surface.height &&
     playerY + playerSize / 2 <= canvasHeight - surface.height + 50 &&
     playerX > surface.posX - surface.width / 2 &&
-    playerX < surface.posX + surface.width / 2) {
+    playerX < surface.posX + surface.width / 2
+  ) {
     // fix player's position
     playerY = canvasHeight - surface.height - playerSize / 2;
     // stop moving
