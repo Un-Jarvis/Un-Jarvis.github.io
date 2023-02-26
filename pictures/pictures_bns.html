@@ -10,9 +10,9 @@
   <link type="text/css" href="../stylesheets/site.css" rel="stylesheet" />
 </head>
 
-<body onscroll="fixedHeaderAndSiderbar()">
+<body onscroll="fixedSidebar()">
   <!-- <img src="../images/banner.jpg" alt="" style="margin-top: 0px; max-width: 100%" /> -->
-  <div class="boxShadow" id="topHeader">
+  <div class="boxShadow">
     <nav class="navbar">
       <a href="../index.html">Home</a>
       <a href="../projects.html">Projects</a>
@@ -122,23 +122,12 @@
   </div>
 
   <script>
-    // Get the header
-    var header = document.getElementById("topHeader");
-    // Get the offset position of the navbar
-    var headerOffset = header.offsetTop;
-
     // Get the sidebar
     var sidebar = document.getElementById("sidebar");
     // Get the offset position of the sidebar
     var sidebarOffset = sidebar.offsetTop;
 
-    function fixedHeaderAndSiderbar() {
-      if (window.pageYOffset > headerOffset) {
-        header.classList.add("topBar");
-      } else {
-        header.classList.remove("topBar");
-      }
-
+    function fixedSidebar() {
       if (window.pageYOffset > sidebarOffset - 85.65) {
         sidebar.classList.add("fixedSidebar");
       } else {

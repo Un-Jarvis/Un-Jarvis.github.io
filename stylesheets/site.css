@@ -5,7 +5,7 @@ body {
   margin: 0px; 
 }
 
-div#topHeader, div.dropdown-content {
+div.topBar, div.dropdown-content {
   background-color: white;
   font-family: Arial;
   text-align: center; 
@@ -46,7 +46,8 @@ div#topHeader, div.dropdown-content {
 }
 
 .topBar + .yield {
-  padding-top: 85.65px; 
+  padding-top: 85.65px;
+  margin-top: 55.65px;
 }
 
 nav.navbar {
@@ -108,9 +109,6 @@ div.sidebar {
   float: left;
   text-align: center;
   width: 200px;
-  z-index: 1;
-  top: 85.65px;
-  left: 100px;
   background: white;
   overflow-x: hidden;
   padding: 10px;
@@ -133,8 +131,9 @@ div.sidebar {
 }
 
 .fixedSidebar {
+  z-index: 1;
+  top: 85.65px;
   position: fixed;
-  top: 250px; 
 }
 
 div.main {
@@ -190,6 +189,8 @@ div.infobar ul li a:hover {
 
 div.yield {
   padding: 30px 100px 50px; 
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 div.embeded-video img {
