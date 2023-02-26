@@ -9,23 +9,11 @@
   <title>Jarvis</title>
   <link type="text/css" href="../stylesheets/site.css" rel="stylesheet" />
   <script defer type="text/javascript" src="../javascripts/fixedSideBar.js"></script>
+  <script defer type="text/javascript" src="../javascripts/topbar.js"></script>
 </head>
 
-<body onscroll="fixedSidebar()">
-  <!-- <img src="../images/banner.jpg" alt="" style="margin-top: 0px; max-width: 100%" /> -->
-  <div class="topBar boxShadow">
-    <nav class="navbar">
-      <a href="../index.html">Home</a>
-      <a href="../projects.html">Projects</a>
-      <div class="dropdown">
-        <button class="active">Pictures</button>
-        <div class="dropdown-content boxShadow">
-          <a href="pictures_bns.html">Blade & Soul</a>
-          <a href="pictures_photo.html">Photographs</a>
-        </div>
-      </div>
-    </nav>
-  </div>
+<body onload="initTopbar('pictures')" onscroll="fixedSidebar()">
+  <div id="topbar" class="boxShadow"></div>
 
   <div class="yield">
     <div class="sidebar boxShadow" id="sidebar">

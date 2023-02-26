@@ -8,24 +8,11 @@
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Jarvis</title>
   <link type="text/css" href="stylesheets/site.css" rel="stylesheet" />
+  <script defer type="text/javascript" src="javascripts/topbar.js"></script>
 </head>
 
-<body>
-  <!-- <img src="images/banner.jpg" alt="" style="margin-top: 0px; max-width: 100%" /> -->
-  <div class="topBar boxShadow">
-    <nav class="navbar">
-      <a class="active" href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <div class="dropdown">
-        <button>Pictures</button>
-        <div class="dropdown-content boxShadow">
-          <a href="pictures/pictures_bns.html">Blade & Soul</a>
-          <a href="pictures/pictures_photo.html">Photographs</a>
-        </div>
-      </div>
-      <a href="game/game.html">Game</a>
-    </nav>
-  </div>
+<body onload="initTopbarFromRoot('home')">
+  <div id="topbar" class="boxShadow"></div>
 
   <div class="yield">
     <img class="profile_pic" src="images/profile.png" />

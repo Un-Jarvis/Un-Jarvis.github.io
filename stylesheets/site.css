@@ -5,7 +5,7 @@ body {
   margin: 0px; 
 }
 
-div.topBar, div.dropdown-content {
+div#topbar, div.dropdown-content {
   background-color: white;
   font-family: Arial;
   text-align: center; 
@@ -39,13 +39,13 @@ div.topBar, div.dropdown-content {
   color: #696969;
 }
 
-.topBar {
+div#topbar {
   position: fixed;
   top: 0;
   width: 100% 
 }
 
-.topBar + .yield {
+div#topbar + .yield {
   padding-top: 85.65px;
 }
 
