@@ -8,6 +8,7 @@
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Jarvis</title>
   <link type="text/css" href="../stylesheets/site.css" rel="stylesheet" />
+  <script defer type="text/javascript" src="../javascripts/fixedSideBar.js"></script>
 </head>
 
 <body onscroll="fixedSidebar()">
@@ -91,21 +92,6 @@
       <img class="social" src="../images/logo/youtube.png" alt="youtube" />
     </a>
   </div>
-
-  <script>
-    // Get the sidebar
-    var sidebar = document.getElementById("sidebar");
-    // Get the offset position of the sidebar
-    var sidebarOffset = sidebar.offsetTop;
-
-    function fixedSidebar() {
-      if (window.pageYOffset > sidebarOffset - 85.65) {
-        sidebar.classList.add("fixedSidebar");
-      } else {
-        sidebar.classList.remove("fixedSidebar");
-      }
-    }
-  </script>
 
 </body>
 
