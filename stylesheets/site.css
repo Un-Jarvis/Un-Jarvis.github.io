@@ -196,6 +196,7 @@ div.embeded-video img {
   display: block;
   margin: 0 auto;
   width: 100%;
+  max-width: 1400px;
 }
 
 iframe {
@@ -208,21 +209,24 @@ img.profile_pic {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  width: 20%; 
+  width: 20%;
+  max-width: 300px;
 }
 
 img.title_pic {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  width: 50%; 
+  width: 50%;
+  max-width: 600px;
 }
 
 img.picture_page {
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  width: 75%; 
+  width: 75%;
+  max-width: 1200px;
 }
 
 img.social {
