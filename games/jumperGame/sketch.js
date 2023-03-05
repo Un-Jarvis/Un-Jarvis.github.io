@@ -25,7 +25,8 @@ var surfaceColor;
 var gravity = 0.75;
 
 function setup() {
-  createCanvas(canvasWidth, canvasHeight);
+  var game = createCanvas(canvasWidth, canvasHeight);
+  game.parent('game');
 
   // game settings
 
@@ -40,21 +41,18 @@ function setup() {
 
 function draw() {
   background(245);
-  textAlign(CENTER);
-  fill(50, 220, 50);
-  textSize(30);
-  if (score <= 0) {
-    text("Score: 0", canvasWidth / 2, 50);
+  if (gameStatus == 0) {
+    scoreText();
   } else {
-    text("Score: " + score, canvasWidth / 2, 50);
+    gameFailText();
   }
 
   // draw player
   drawPlayer();
 
   // draw surfaces
-  addsurfaces();
-  drawsurfaces();
+  addSurfaces();
+  drawSurfaces();
 
   // detect collision
   detectCollision();
@@ -101,7 +99,7 @@ function drawPlayer() {
 }
 
 // surfaces
-function addsurfaces() {
+function addSurfaces() {
   if (surfaces.length == 0) {
     // Generate a random width, height, and position for the new surface
     var width = round(random(this.surfaceWidthMin, this.surfaceWidthMax));
@@ -123,15 +121,15 @@ function addsurfaces() {
   }
 }
 
-function drawsurfaces() {
+function drawSurfaces() {
   for (var i = 0; i < surfaces.length; i++) {
     surfaces[i].display();
     surfaces[i].move();
-    removesurface(i);
+    removeSurface(i);
   }
 }
 
-function removesurface(index) {
+function removeSurface(index) {
   var surface = surfaces[index];
   if (surface.posX + surface.width / 2 < 0) {
     surfaces.splice(index, 1);
@@ -157,6 +155,27 @@ function keyReleased() {
       init();
     }
   }
+}
+
+function scoreText() {
+  textAlign(CENTER);
+  fill(50, 220, 50);
+  textSize(30);
+  if (score <= 0) {
+    text("Score: 0", canvasWidth / 2, 50);
+  } else {
+    text("Score: " + score, canvasWidth / 2, 50);
+  }
+}
+
+function gameFailText() {
+  textAlign(CENTER);
+  fill(255, 50, 50);
+  textSize(50);
+  text("GAME OVER", canvasWidth / 2, 200);
+  textSize(20);
+  text("You got " + score + " points. Press space to restart.", canvasWidth / 2, 270);
+  text("Press space to restart.", canvasWidth / 2, 300);
 }
 
 function detectCollision() {

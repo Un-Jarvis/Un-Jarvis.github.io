@@ -4,5 +4,8 @@ html, body {
 }
 
 canvas {
+  padding: 30px 100px 50px; 
+  max-width: 1800px;
+  margin: 0 auto;
   display: block;
 }
