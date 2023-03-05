@@ -174,7 +174,7 @@ function gameFailText() {
   textSize(50);
   text("GAME OVER", canvasWidth / 2, 200);
   textSize(20);
-  text("You got " + score + " points. Press space to restart.", canvasWidth / 2, 270);
+  text("You got " + score + " points.", canvasWidth / 2, 270);
   text("Press space to restart.", canvasWidth / 2, 300);
 }
 
